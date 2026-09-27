@@ -109,3 +109,8 @@ The privacy pages in Finnish and English include disclosures for these integrati
 
 ### EU/Finland cookie-consent note
 The tracking snippets in this package load immediately, matching the supplied implementation. Before production launch, review whether your consent-management setup should prevent non-essential analytics from loading until the visitor has provided the required consent.
+
+
+## Map embed
+
+The footer on every HTML page embeds the Tampere Siivous Google Maps listing provided for the site.
