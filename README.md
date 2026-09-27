@@ -4,9 +4,12 @@ A complete Finnish/English static website for **tamperesiivous.com**, designed f
 
 ## What is included
 
-- Finnish homepage and 10 commercial-service landing pages
-- Full English mirror under `/en/`
-- About, responsibility, FAQ, contact, quote and privacy pages
+- 101 HTML pages across Finnish and English
+- Full commercial-service taxonomy: maintenance cleaning, specialist cleaning and add-on services
+- Dedicated pages for office, retail, hotel, restaurant, healthcare, stairwell, industrial, shopping-centre and automotive premises
+- Company, experiences, recruitment, blog, feedback, billing, responsibility, FAQ, contact, quote and privacy sections
+- Six practical SEO/editorial articles in Finnish with English counterparts
+- Existing Tampere-specific landing pages retained alongside the new generic service pages
 - Mobile navigation and sticky mobile quote CTA
 - LocalBusiness, Service, FAQ and Breadcrumb structured data
 - Canonical URLs + reciprocal `hreflang` tags
@@ -30,9 +33,10 @@ The quote form currently posts to **FormSubmit** using `tyozyoy@gmail.com` becau
 Search for:
 `https://formsubmit.co/tyozyoy@gmail.com`
 
-and replace it in:
-- `pyyda-tarjous.html`
-- `en/request-a-quote.html`
+and replace it in all forms:
+- `pyyda-tarjous.html` / `en/request-a-quote.html`
+- `anna-palautetta.html` / `en/feedback.html`
+- `avoimet-tyopaikat.html` / `en/open-jobs.html`
 
 Then update the privacy notice to name the actual processor you use.
 
@@ -75,3 +79,20 @@ The English site targets matching office/commercial cleaning queries while remai
 - Add a business email at the domain.
 - Compress self-hosted photographs to AVIF/WebP when you replace the remote images.
 - Add analytics only after deciding your cookie/privacy approach. The current website intentionally has no analytics or marketing cookies.
+
+
+## V2 expanded commercial architecture (27 Sep 2026)
+
+`PAGE-MAP.md` lists the Finnish/English page pairs for maintenance. The site now includes full Finnish and English service taxonomies for maintenance cleaning, specialist cleaning and add-on facility services, plus company, experiences, jobs, feedback, billing and editorial pages. Generic service pages and Tampere-specific landing pages intentionally serve different search intent to reduce duplication.
+
+Important operational checks before publishing:
+- Confirm that 24/7 urgent-cleaning requests can genuinely be received at the published phone number and keep the case-by-case availability wording.
+- Healthcare, industrial, work-at-height and hazardous-contamination assignments must only be accepted when the required competence, PPE, access equipment and customer instructions can be ensured.
+- The Oiva-support page deliberately does not promise an Oiva grade; Oiva is an official food-control evaluation system.
+- Do not add certifications, customer logos or named B2B references without evidence/permission.
+- Confirm the current VAT ID and business information before launch if legal details change.
+
+
+## V3 additions inspired by current competitor research
+
+The site now includes three original customer-experience features: an existing-customer service request route, an interactive cleaning-needs/frequency calculator, and a quality/service-process page. These were inspired by useful patterns seen in current Tampere-area commercial service sites, but the implementation and copy are original. The calculator is explicitly indicative and does not present a binding price. No competitor certifications, customer logos, NPS results, guarantees or references have been copied.
