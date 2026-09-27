@@ -96,3 +96,16 @@ Important operational checks before publishing:
 ## V3 additions inspired by current competitor research
 
 The site now includes three original customer-experience features: an existing-customer service request route, an interactive cleaning-needs/frequency calculator, and a quality/service-process page. These were inspired by useful patterns seen in current Tampere-area commercial service sites, but the implementation and copy are original. The calculator is explicitly indicative and does not present a binding price. No competitor certifications, customer logos, NPS results, guarantees or references have been copied.
+
+## Analytics and map integration
+
+This build includes the following integrations on every HTML page:
+
+- Google Analytics 4 measurement ID: `G-XRJDE56L4W`
+- Microsoft Clarity project ID: `yosbgcb2my`
+- Embedded Google Maps location for Tyozy Tampere in every footer
+
+The privacy pages in Finnish and English include disclosures for these integrations.
+
+### EU/Finland cookie-consent note
+The tracking snippets in this package load immediately, matching the supplied implementation. Before production launch, review whether your consent-management setup should prevent non-essential analytics from loading until the visitor has provided the required consent.
